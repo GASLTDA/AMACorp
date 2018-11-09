@@ -4,8 +4,7 @@ import datetime
 import logging
 import xml.etree.ElementTree as ET
 from odoo import models, fields, api
-from odoo.exceptions import UserError, ValidationError
-import subprocess
+
 
 _logger = logging.getLogger(__name__)
 

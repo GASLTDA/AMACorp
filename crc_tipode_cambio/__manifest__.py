@@ -18,6 +18,7 @@
     'depends': ['base','account'],
     'data': [
         'views/crc_currency_rate_view.xml',
+        'security/ir.model.access.csv',
         'data/cron.xml',
         'data/res_currency_update.xml',
     ],
